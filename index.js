@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 //deleate a product
 
 
-mongoose.connect("mongodb+srv://sandeepvakati1_db_user:1vAuy9qWeuL53CXb@babu-api.oqxky1a.mongodb.net/?retryWrites=true&w=majority&appName=Babu-API")
+mongoose.connect("mongodb+srv://user:pass@cluster0.fake123.mongodb.net/mydb")//cluster link of mongodb atlas
   .then(() => {
     console.log("Connected To Database");
     app.listen(3000, () => {
